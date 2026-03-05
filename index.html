@@ -70,104 +70,53 @@ efficiently.</p>
 
 <h2>Skills</h2>
 
-<div class="skills-columns">
+<div class="skill">
 
-<!-- Data & Analytics -->
+<div class="skill-name">Data Analytics</div>
 
-<div class="skills-category">
-
-<h3>Data & Analytics</h3>
-
-<ul>
-<li>Data Analysis</li>
-<li>Research Analysis</li>
-<li>Data Reporting</li>
-<li>Performance Analysis</li>
-<li>Dashboard Development</li>
-<li>Data Visualization</li>
-</ul>
+<div class="skill-bar">
+<div class="skill-progress" data-width="90%"></div>
+</div>
 
 </div>
 
+<div class="skill">
 
-<!-- Marketing Operations -->
+<div class="skill-name">Marketing Analytics</div>
 
-<div class="skills-category">
-
-<h3>Marketing Operations</h3>
-
-<ul>
-<li>Marketing Reporting</li>
-<li>Campaign Performance Analysis</li>
-<li>Lead Analytics</li>
-<li>Marketing Dashboard Creation</li>
-<li>Marketing Analytics</li>
-</ul>
+<div class="skill-bar">
+<div class="skill-progress" data-width="85%"></div>
+</div>
 
 </div>
 
+<div class="skill">
 
-<!-- CRM Management -->
+<div class="skill-name">CRM Data Management</div>
 
-<div class="skills-category">
-
-<h3>CRM Management</h3>
-
-<ul>
-<li>CRM Data Auditing</li>
-<li>CRM Data Quality Improvement</li>
-<li>Lead Management</li>
-<li>Data Segmentation</li>
-</ul>
+<div class="skill-bar">
+<div class="skill-progress" data-width="80%"></div>
+</div>
 
 </div>
 
+<div class="skill">
 
-<!-- Automation & Systems -->
+<div class="skill-name">Dashboard Development</div>
 
-<div class="skills-category">
-
-<h3>Automation & Systems</h3>
-
-<ul>
-<li>Internal Tool Creation</li>
-<li>Website Building</li>
-<li>Documentation Systems</li>
-<li>Process Optimization</li>
-</ul>
+<div class="skill-bar">
+<div class="skill-progress" data-width="88%"></div>
+</div>
 
 </div>
 
+<div class="skill">
 
-<!-- Virtual Assistance -->
+<div class="skill-name">Marketing Reporting</div>
 
-<div class="skills-category">
-
-<h3>Virtual Assistance</h3>
-
-<ul>
-<li>Executive Support</li>
-<li>Web Research</li>
-<li>Spreadsheet Management</li>
-<li>Document Preparation</li>
-</ul>
-
+<div class="skill-bar">
+<div class="skill-progress" data-width="85%"></div>
 </div>
-
-
-<!-- Content & Design -->
-
-<div class="skills-category">
-
-<h3>Content & Design</h3>
-
-<ul>
-<li>Canva Design</li>
-<li>Social Media Branding</li>
-<li>Content Creation</li>
-<li>Product Photo Editing</li>
-<li>Video Editing (CapCut)</li>
-</ul>
 
 </div>
 
@@ -474,10 +423,35 @@ setTimeout(typeEffect,40);
 typeEffect();
 
 </script>
+
+<script>
+
+const skillBars = document.querySelectorAll(".skill-progress");
+
+function animateSkills(){
+
+skillBars.forEach(bar => {
+
+const rect = bar.getBoundingClientRect();
+
+if(rect.top < window.innerHeight){
+
+bar.style.width = bar.dataset.width;
+
+}
+
+});
+
+}
+
+window.addEventListener("scroll", animateSkills);
+
+</script>
   
 </body>
 
 </html>
+
 
 
 
