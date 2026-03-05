@@ -206,101 +206,6 @@ box-shadow:0 4px 12px rgba(0,0,0,0.2);
 
 }
 
-.tools-grid{
-
-display:grid;
-grid-template-columns:repeat(auto-fit,minmax(120px,1fr));
-gap:25px;
-max-width:900px;
-margin:40px auto;
-text-align:center;
-
-}
-
-.tool{
-
-background:white;
-padding:20px;
-border-radius:10px;
-box-shadow:0 4px 12px rgba(0,0,0,0.1);
-
-}
-
-.tool img{
-
-width:40px;
-height:40px;
-margin-bottom:10px;
-
-}
-
-.tool p{
-
-font-size:14px;
-font-weight:500;
-
-}
-
-/* TECHNOLOGY STACK */
-
-.tools-columns{
-
-display:grid;
-grid-template-columns:repeat(5,1fr);
-gap:30px;
-max-width:1200px;
-margin:40px auto;
-
-}
-
-.tools-category h3{
-
-margin-bottom:15px;
-color:#1e3a8a;
-font-size:18px;
-
-}
-
-.tools-grid{
-
-display:grid;
-grid-template-columns:repeat(1,1fr);
-gap:15px;
-
-}
-
-.tool{
-
-background:white;
-padding:15px;
-border-radius:10px;
-box-shadow:0 4px 12px rgba(0,0,0,0.1);
-text-align:center;
-transition:transform 0.2s ease;
-
-}
-
-.tool:hover{
-
-transform:translateY(-5px);
-
-}
-
-.tool img{
-
-width:35px;
-height:35px;
-margin-bottom:8px;
-
-}
-
-.tool p{
-
-font-size:14px;
-font-weight:500;
-
-}
-
 /* TECHNOLOGY STACK */
 
 .tools-columns{
@@ -366,5 +271,6 @@ max-width:1200px;
 margin:40px auto;
 
 }
+
 
 
