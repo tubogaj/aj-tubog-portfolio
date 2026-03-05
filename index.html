@@ -3,14 +3,16 @@
 
 <head>
 
-<title>AJ Tubog | Portfolio</title>
+<title>AJ Tubog Portfolio</title>
 
 <link rel="stylesheet" href="style.css">
 
-</head>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
 
-<body>
+</head>
   
+<body>
+<div class="parallax-bg"></div>
 <nav>
 <a href="#about">About</a>
 <a href="#skills">Skills</a>
@@ -26,9 +28,7 @@
 
 <h1>AJ Tubog</h1>
 
-<p>
-Marketing Operations Analyst | Data Analyst | Virtual Assistant
-</p>
+<p id="typing"></p>
 
 <div class="hero-buttons">
 
@@ -41,7 +41,7 @@ Marketing Operations Analyst | Data Analyst | Virtual Assistant
 
 </header>
 
-<section id="about">
+<section id="about" class="reveal">
 <h2>About Me</h2>
 
 <p>
@@ -66,7 +66,7 @@ efficiently.</p>
 
 </section>
 
-<section id="skills">
+<section id="skills" class="reveal">
 
 <h2>Skills</h2>
 
@@ -173,7 +173,7 @@ efficiently.</p>
 
 </section>
 
-<section id="tools">
+<section id="tools" class="reveal">
 
 <h2>Technology Stack</h2>
 
@@ -328,7 +328,7 @@ efficiently.</p>
 
 </section>
     
-<section id="portfolio">
+<section id="portfolio" class="reveal">
 
 <h2>Portfolio Projects</h2>
 
@@ -372,7 +372,7 @@ Performance analytics of automated trading systems including drawdown.
 
 </section>
 
-<section id="contact">
+<section id="contact" class="reveal">
 
 <h2>Contact Me</h2>
 
@@ -389,9 +389,26 @@ Performance analytics of automated trading systems including drawdown.
 </form>
 
 </section>
-<footer>
 
+<footer>
 <p>© AJ Tubog Portfolio</p>
+<p>Connect with me</p>
+
+<div class="footer-links">
+
+<a href="https://www.linkedin.com/in/aj-tubog-9726151a6" target="_blank">
+<i class="fab fa-linkedin"></i>
+</a>
+
+<a href="https://www.fiverr.com/ajtubog?public_mode=true" target="_blank">
+<i class="fas fa-briefcase"></i>
+</a>
+
+<a href="https://github.com/tubogaj" target="_blank">
+<i class="fab fa-github"></i>
+</a>
+
+</div>
 
 </footer>
 <script>
@@ -419,9 +436,49 @@ reveals[i].classList.add("active");
 });
 
 </script>
+<script>
+
+const parallax = document.querySelector(".parallax-bg");
+
+document.addEventListener("mousemove", function(e){
+
+let x = (window.innerWidth / 2 - e.clientX) / 40;
+let y = (window.innerHeight / 2 - e.clientY) / 40;
+
+parallax.style.transform = `translate(${x}px, ${y}px)`;
+
+});
+
+</script>
+
+<script>
+
+const text = "Marketing Operations Analyst | Data Analyst | Virtual Assistant";
+
+let index = 0;
+
+function typeEffect(){
+
+if(index < text.length){
+
+document.getElementById("typing").innerHTML += text.charAt(index);
+
+index++;
+
+setTimeout(typeEffect,40);
+
+}
+
+}
+
+typeEffect();
+
+</script>
+  
 </body>
 
 </html>
+
 
 
 
