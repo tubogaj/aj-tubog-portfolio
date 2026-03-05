@@ -23,25 +23,22 @@ body{
 
 font-family: Arial, Helvetica, sans-serif;
 margin:0;
-color:#0f172a;
+color:#111827;
 text-align:center;
 
-/* subtle tech background */
+/* base color */
 
-background:
-linear-gradient(to bottom,#f8fafc,#eef2f7),
-repeating-linear-gradient(
-90deg,
-rgba(37,99,235,0.03),
-rgba(37,99,235,0.03) 1px,
-transparent 1px,
-transparent 80px
-);
+background-color:#f8fafc;
 
-background-attachment:fixed;
+/* tech grid pattern */
+
+background-image:
+linear-gradient(rgba(37,99,235,0.06) 1px, transparent 1px),
+linear-gradient(90deg, rgba(37,99,235,0.06) 1px, transparent 1px);
+
+background-size:60px 60px;
 
 }
-
 
 /* NAVIGATION */
 
@@ -77,9 +74,12 @@ color:var(--primary);
 header{
 
 background:linear-gradient(135deg,#0f172a,#1e293b);
+
 color:white;
+
 padding:70px 20px;
-box-shadow:0 8px 30px rgba(0,0,0,0.2);
+
+box-shadow:0 10px 30px rgba(0,0,0,0.25);
 
 }
 
@@ -105,6 +105,14 @@ section{
 padding:50px;
 max-width:1000px;
 margin:auto;
+
+background:rgba(255,255,255,0.85);
+
+border-radius:12px;
+
+box-shadow:0 10px 30px rgba(0,0,0,0.08);
+
+margin-top:40px;
 
 }
 
@@ -190,11 +198,16 @@ margin-top:30px;
 
 .project-card{
 
-background:rgba(255,255,255,0.85);
+background:rgba(255,255,255,0.9);
+
 padding:25px;
+
 border-radius:14px;
+
 box-shadow:0 10px 30px rgba(0,0,0,0.08);
+
 backdrop-filter:blur(6px);
+
 transition:all .25s ease;
 
 }
@@ -202,26 +215,8 @@ transition:all .25s ease;
 .project-card:hover{
 
 transform:translateY(-8px);
-box-shadow:0 15px 40px rgba(0,0,0,0.15);
 
-}
-
-.project-card a{
-
-display:inline-block;
-margin-top:10px;
-padding:8px 16px;
-background:var(--primary);
-color:white;
-text-decoration:none;
-border-radius:6px;
-font-size:14px;
-
-}
-
-.project-card a:hover{
-
-background:var(--primary-dark);
+box-shadow:0 20px 40px rgba(0,0,0,0.15);
 
 }
 
@@ -344,10 +339,14 @@ gap:16px;
 
 .tool{
 
-background:rgba(255,255,255,0.9);
+background:white;
+
 padding:20px;
+
 border-radius:14px;
-box-shadow:0 8px 20px rgba(0,0,0,0.07);
+
+box-shadow:0 8px 20px rgba(0,0,0,0.08);
+
 transition:all .25s ease;
 
 }
@@ -355,7 +354,8 @@ transition:all .25s ease;
 .tool:hover{
 
 transform:translateY(-6px);
-box-shadow:0 12px 30px rgba(0,0,0,0.18);
+
+box-shadow:0 15px 40px rgba(0,0,0,0.2);
 
 }
 
@@ -441,3 +441,4 @@ padding:40px 15px;
 }
 
 }
+
