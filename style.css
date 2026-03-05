@@ -88,3 +88,28 @@ font-weight:bold;
 background:#1e40af;
 
 }
+
+.portfolio-grid{
+
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+gap:25px;
+margin-top:30px;
+
+}
+
+.project-card{
+
+background:white;
+padding:25px;
+border-radius:10px;
+box-shadow:0 4px 12px rgba(0,0,0,0.1);
+
+}
+
+.project-card:hover{
+
+transform:translateY(-5px);
+transition:0.3s;
+
+}
