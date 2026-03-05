@@ -474,33 +474,12 @@ typeEffect();
 
 </script>
 
-<script>
 
-const skillBars = document.querySelectorAll(".skill-progress");
-
-function animateSkills(){
-
-skillBars.forEach(bar => {
-
-const rect = bar.getBoundingClientRect();
-
-if(rect.top < window.innerHeight){
-
-bar.style.width = bar.dataset.width;
-
-}
-
-});
-
-}
-
-window.addEventListener("scroll", animateSkills);
-
-</script>
   
 </body>
 
 </html>
+
 
 
 
