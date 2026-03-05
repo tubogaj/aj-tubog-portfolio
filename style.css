@@ -324,7 +324,7 @@ font-size:18px;
 .tools-grid{
 
 display:grid;
-grid-template-columns:repeat(2,1fr);
+grid-template-columns:repeat(5,1fr);
 gap:15px;
 
 }
@@ -340,16 +340,11 @@ transition:transform 0.2s ease;
 
 }
 
-.tool:hover{
-
-transform:translateY(-5px);
-
-}
 
 .tool img{
 
-width:40px;
-height:40px;
+width:35px;
+height:35px;
 object-fit:contain;
 margin-bottom:8px;
 
@@ -365,9 +360,10 @@ font-weight:500;
 .skills-columns{
 
 display:grid;
-grid-template-columns:repeat(5,1fr);
+grid-template-columns:repeat(6,1fr);
 gap:30px;
 max-width:1200px;
 margin:40px auto;
 
 }
+
