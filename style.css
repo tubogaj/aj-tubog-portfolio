@@ -151,3 +151,29 @@ background:#1e40af;
 
 }
 
+.social-links{
+
+margin-top:20px;
+
+}
+
+.social-links a{
+
+display:inline-block;
+margin:8px;
+padding:10px 18px;
+background:#111827;
+color:white;
+text-decoration:none;
+border-radius:6px;
+font-size:14px;
+
+}
+
+.social-links a:hover{
+
+background:#2563eb;
+
+}
+
+
