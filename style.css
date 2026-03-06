@@ -5,7 +5,10 @@ FONTS
 body{
 
 margin:0;
-font-family:'Inter', sans-serif;
+
+/* bold typewriter style */
+font-family:'IBM Plex Mono', monospace;
+
 color:#e5e7eb;
 background:#0f172a;
 
@@ -189,8 +192,8 @@ text-align:left;
 
 .hero-text h1{
 
-font-family:'Sora', sans-serif;
 font-size:44px;
+font-weight:700;
 margin-bottom:10px;
 
 }
@@ -246,10 +249,11 @@ section{
 
 padding:50px 20px;
 
-max-width:1000px;
+max-width:1100px;
 margin:auto;
 
 position:relative;
+text-align:center;
 
 }
 
@@ -260,7 +264,7 @@ HEADINGS
 
 h1,h2,h3{
 
-font-family:'Sora', sans-serif;
+font-weight:700;
 
 }
 
@@ -297,76 +301,41 @@ font-size:15px;
 
 
 /* =========================
-SKILLS
+SKILLS (CENTERED PROPERLY)
 ========================= */
 
 .skills-columns{
 
-display:grid;
-grid-template-columns:repeat(6,1fr);
+display:flex;
+justify-content:center;
+align-items:flex-start;
 
-gap:40px;
+flex-wrap:wrap;
 
-max-width:1000px;
+gap:60px;
+
 margin:40px auto;
 
-justify-items:center;
-
-position:relative;
+max-width:1100px;
 
 }
 
-
-/* skill column */
+/* each category */
 
 .skills-columns div{
 
 display:flex;
 flex-direction:column;
+
 align-items:center;
+
+width:160px;
 
 text-align:center;
 
-max-width:150px;
-
-padding:10px 15px;
-
-transition:all .35s ease;
-
-position:relative;
-
 }
 
-
-/* divider line */
-
-.skills-columns div::after{
-
-content:"";
-
-position:absolute;
-
-right:-20px;
-top:10%;
-
-width:1px;
-height:80%;
-
-background:rgba(255,255,255,.08);
-
-}
-
-
-/* remove divider on last column */
-
-.skills-columns div:last-child::after{
-
-display:none;
-
-}
-
-
-/* title */
+/* category title */
 
 .skills-columns h3{
 
@@ -375,55 +344,21 @@ margin-bottom:10px;
 
 color:#e5e7eb;
 
-transition:.3s;
-
 }
 
-
-/* skills */
+/* skill items */
 
 .skills-columns p{
 
 margin:4px 0;
 
 font-size:14px;
-
 color:#94a3b8;
 
 text-align:center;
 
-letter-spacing:.3px;
-
 }
 
-
-/* hover animation */
-
-.skills-columns div:hover{
-
-transform:translateY(-6px);
-
-}
-
-
-/* glow effect */
-
-.skills-columns div:hover h3{
-
-color:#60a5fa;
-
-text-shadow:0 0 10px rgba(96,165,250,.6);
-
-}
-
-
-/* subtle skill highlight */
-
-.skills-columns div:hover p{
-
-color:#cbd5f5;
-
-}
 
 /* =========================
 TECH STACK
@@ -692,7 +627,7 @@ height:180px;
 
 .skills-columns{
 
-grid-template-columns:repeat(2,1fr);
+gap:40px;
 
 }
 
@@ -706,7 +641,13 @@ grid-template-columns:repeat(2,1fr);
 
 @media(max-width:600px){
 
-.skills-columns,
+.skills-columns{
+
+flex-direction:column;
+align-items:center;
+
+}
+
 .tools-columns{
 
 grid-template-columns:1fr;
@@ -732,5 +673,3 @@ grid-column:span 1;
 }
 
 }
-
-
