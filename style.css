@@ -64,8 +64,8 @@ z-index:-1;
 
 position:absolute;
 
-width:4px;
-height:4px;
+width:10px;
+height:10px;
 
 background:#3b82f6;
 
@@ -646,3 +646,4 @@ grid-column:span 1;
 }
 
 }
+
