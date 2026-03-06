@@ -2,29 +2,20 @@
 FONTS
 ========================= */
 
-@font-face{
-font-family:"Caniago";
-src:url("fonts/Caniago-Regular.woff2") format("woff2");
-}
-
-
-/* =========================
-GLOBAL
-========================= */
-
 body{
 
 margin:0;
-font-family:Inter, Arial, sans-serif;
+font-family:'Inter', sans-serif;
 color:#e5e7eb;
-
 background:#0f172a;
 
-/* tech grid */
+overflow-x:hidden;
+
+/* tech grid background */
 
 background-image:
-linear-gradient(rgba(59,130,246,0.05) 1px, transparent 1px),
-linear-gradient(90deg, rgba(59,130,246,0.05) 1px, transparent 1px);
+linear-gradient(rgba(59,130,246,0.06) 1px, transparent 1px),
+linear-gradient(90deg, rgba(59,130,246,0.06) 1px, transparent 1px);
 
 background-size:65px 65px;
 
@@ -32,27 +23,65 @@ background-size:65px 65px;
 
 
 /* =========================
-PARALLAX LAYER
+CURSOR LIGHT EFFECT
 ========================= */
 
-.parallax-bg{
+.cursor-glow{
+
+position:fixed;
+width:400px;
+height:400px;
+
+background:radial-gradient(circle,
+rgba(59,130,246,.15),
+transparent 60%);
+
+pointer-events:none;
+z-index:0;
+
+transform:translate(-50%,-50%);
+
+}
+
+
+/* =========================
+FLOATING TECH NODES
+========================= */
+
+.tech-nodes{
 
 position:fixed;
 top:0;
 left:0;
-
 width:100%;
 height:100%;
-
-background-image:
-radial-gradient(circle at 20% 30%, rgba(59,130,246,.2) 2px, transparent 2px),
-radial-gradient(circle at 70% 60%, rgba(59,130,246,.2) 2px, transparent 2px),
-radial-gradient(circle at 40% 80%, rgba(59,130,246,.2) 2px, transparent 2px);
-
-background-size:220px 220px;
-
 pointer-events:none;
 z-index:-1;
+
+}
+
+.tech-nodes span{
+
+position:absolute;
+
+width:4px;
+height:4px;
+
+background:#3b82f6;
+
+border-radius:50%;
+
+box-shadow:0 0 12px #3b82f6;
+
+animation:floatNode linear infinite;
+
+}
+
+@keyframes floatNode{
+
+0%{ transform:translateY(0px) }
+
+100%{ transform:translateY(-1200px) }
 
 }
 
@@ -66,21 +95,23 @@ nav{
 position:sticky;
 top:0;
 
-background:rgba(15,23,42,.6);
+background:rgba(15,23,42,.65);
 backdrop-filter:blur(10px);
 
-padding:12px 10px;
+padding:14px;
 
 border-bottom:1px solid rgba(255,255,255,.06);
 
 text-align:center;
+
+z-index:10;
 
 }
 
 nav a{
 
 color:#cbd5f5;
-margin:0 14px;
+margin:0 15px;
 text-decoration:none;
 font-weight:600;
 font-size:14px;
@@ -106,9 +137,9 @@ display:flex;
 align-items:center;
 justify-content:center;
 
-gap:45px;
+gap:50px;
 
-padding:60px 20px 40px;
+padding:80px 20px 60px;
 
 max-width:1050px;
 margin:auto;
@@ -122,8 +153,8 @@ PROFILE PHOTO
 
 .profile{
 
-width:230px;
-height:230px;
+width:240px;
+height:240px;
 
 border-radius:50%;
 
@@ -131,7 +162,7 @@ object-fit:cover;
 
 border:5px solid #3b82f6;
 
-box-shadow:0 15px 50px rgba(59,130,246,.45);
+box-shadow:0 20px 60px rgba(59,130,246,.45);
 
 display:block;
 
@@ -151,53 +182,52 @@ HERO TEXT
 
 .hero-text{
 
-max-width:420px;
+max-width:450px;
 text-align:left;
 
 }
 
 .hero-text h1{
 
-font-family:"Caniago", serif;
+font-family:'Sora', sans-serif;
 font-size:44px;
-
-margin-bottom:8px;
+margin-bottom:10px;
 
 }
 
 .hero-text p{
 
 color:#94a3b8;
-line-height:1.5;
+line-height:1.6;
 font-size:15px;
 
-margin-bottom:18px;
+margin-bottom:20px;
 
 }
 
 
 /* =========================
-HERO BUTTONS
+BUTTONS
 ========================= */
 
 .hero-buttons a{
 
 display:inline-block;
-
 margin-right:10px;
 
-padding:10px 18px;
+padding:11px 20px;
 
-border-radius:24px;
+border-radius:30px;
 
 background:#3b82f6;
 color:white;
 
 font-size:14px;
-
 text-decoration:none;
 
 font-weight:600;
+
+transition:.25s;
 
 }
 
@@ -214,11 +244,12 @@ SECTION
 
 section{
 
-padding:40px 20px;
+padding:50px 20px;
 
 max-width:1000px;
-
 margin:auto;
+
+position:relative;
 
 }
 
@@ -227,23 +258,46 @@ margin:auto;
 HEADINGS
 ========================= */
 
+h1,h2,h3{
+
+font-family:'Sora', sans-serif;
+
+}
+
 h2{
 
-font-family:"Caniago", serif;
-
-font-size:28px;
-
-color:#3b82f6;
-
-margin-bottom:25px;
-
+font-size:32px;
+color:#60a5fa;
+margin-bottom:35px;
 text-align:center;
 
 }
 
 
 /* =========================
-SKILLS GRID
+ABOUT SECTION
+========================= */
+
+#about{
+
+max-width:850px;
+margin:auto;
+text-align:center;
+
+}
+
+#about p{
+
+color:#cbd5f5;
+line-height:1.7;
+margin-bottom:18px;
+font-size:15px;
+
+}
+
+
+/* =========================
+SKILLS
 ========================= */
 
 .skills-columns{
@@ -252,28 +306,35 @@ display:grid;
 
 grid-template-columns:repeat(6,1fr);
 
-gap:22px;
+gap:40px;
 
-max-width:1100px;
+max-width:1000px;
+margin:40px auto;
 
-margin:25px auto;
-
-text-align:left;
-
-}
-
-.skills-columns ul{
-
-list-style:none;
-padding:0;
+text-align:center;
 
 }
 
-.skills-columns li{
+.skills-columns h3{
 
-margin:5px 0;
+font-size:16px;
+margin-bottom:12px;
+color:#e5e7eb;
+
+}
+
+.skills-columns p{
+
+margin:6px 0;
 font-size:14px;
-color:#cbd5f5;
+color:#94a3b8;
+
+}
+
+.skills-columns div:hover{
+
+transform:translateY(-4px);
+transition:.3s;
 
 }
 
@@ -285,24 +346,21 @@ TECH STACK
 .tools-columns{
 
 display:grid;
-
 grid-template-columns:repeat(5,1fr);
 
-gap:22px;
+gap:24px;
 
-max-width:1100px;
-
-margin:25px auto;
+max-width:1000px;
+margin:40px auto;
 
 }
 
 .tools-category h3{
 
 text-align:center;
-margin-bottom:16px;
+margin-bottom:18px;
 
 font-size:15px;
-
 color:#cbd5f5;
 
 }
@@ -310,7 +368,7 @@ color:#cbd5f5;
 .tools-grid{
 
 display:grid;
-gap:12px;
+gap:14px;
 
 }
 
@@ -333,8 +391,7 @@ border:1px solid rgba(255,255,255,.05);
 .tool:hover{
 
 transform:translateY(-6px);
-
-box-shadow:0 15px 40px rgba(0,0,0,.6);
+box-shadow:0 20px 40px rgba(0,0,0,.6);
 
 }
 
@@ -345,14 +402,13 @@ height:42px;
 
 object-fit:contain;
 
-margin-bottom:6px;
+margin-bottom:8px;
 
 }
 
 .tool p{
 
 font-size:13px;
-
 margin:0;
 
 }
@@ -371,7 +427,6 @@ grid-template-columns:repeat(auto-fit,minmax(240px,1fr));
 gap:22px;
 
 max-width:1000px;
-
 margin:auto;
 
 }
@@ -393,7 +448,6 @@ transition:.3s;
 .project-card:hover{
 
 transform:translateY(-6px);
-
 box-shadow:0 20px 50px rgba(0,0,0,.6);
 
 }
@@ -402,9 +456,9 @@ box-shadow:0 20px 50px rgba(0,0,0,.6);
 
 display:inline-block;
 
-margin-top:8px;
+margin-top:10px;
 
-padding:7px 12px;
+padding:8px 14px;
 
 background:#3b82f6;
 
@@ -420,19 +474,17 @@ text-decoration:none;
 
 
 /* =========================
-CONTACT FORM
+CONTACT
 ========================= */
 
 form{
 
 display:grid;
-
 grid-template-columns:1fr 1fr;
 
-gap:12px;
+gap:14px;
 
-max-width:620px;
-
+max-width:650px;
 margin:auto;
 
 }
@@ -440,8 +492,7 @@ margin:auto;
 textarea{
 
 grid-column:span 2;
-
-height:100px;
+height:110px;
 
 }
 
@@ -465,7 +516,7 @@ button{
 
 grid-column:span 2;
 
-padding:12px;
+padding:13px;
 
 background:#3b82f6;
 
@@ -492,9 +543,9 @@ FOOTER
 
 footer{
 
-margin-top:40px;
+margin-top:60px;
 
-padding:25px;
+padding:30px;
 
 background:#020617;
 
@@ -528,29 +579,6 @@ color:#3b82f6;
 
 
 /* =========================
-SCROLL REVEAL
-========================= */
-
-.reveal{
-
-opacity:0;
-
-transform:translateY(30px);
-
-transition:all .7s ease;
-
-}
-
-.reveal.active{
-
-opacity:1;
-
-transform:translateY(0);
-
-}
-
-
-/* =========================
 RESPONSIVE
 ========================= */
 
@@ -576,13 +604,13 @@ height:180px;
 
 }
 
-.tools-columns{
+.skills-columns{
 
 grid-template-columns:repeat(2,1fr);
 
 }
 
-.skills-columns{
+.tools-columns{
 
 grid-template-columns:repeat(2,1fr);
 
@@ -592,8 +620,8 @@ grid-template-columns:repeat(2,1fr);
 
 @media(max-width:600px){
 
-.tools-columns,
-.skills-columns{
+.skills-columns,
+.tools-columns{
 
 grid-template-columns:1fr;
 
@@ -611,7 +639,7 @@ grid-template-columns:1fr;
 
 }
 
-textarea, button{
+textarea,button{
 
 grid-column:span 1;
 
