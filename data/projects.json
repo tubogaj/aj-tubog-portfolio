@@ -13,6 +13,56 @@
           "github": "https://github.com/tubogaj/aj-tubog-portfolio",
           "demo": "https://tubogaj.github.io/aj-tubog-portfolio/",
           "placeholder": false
+        },
+        {
+          "title": "QuickFlip",
+          "description": "A gold loan comparison tool that lets borrowers compare loan options across gold purities (24K down to 14K) and repayment schedules — weekly, bi-monthly or monthly.",
+          "image": null,
+          "tags": ["Web App", "Finance Tools"],
+          "caseStudy": null,
+          "github": null,
+          "demo": "https://tubogaj.github.io/QuickFlip/",
+          "placeholder": false
+        },
+        {
+          "title": "Performance Checker",
+          "description": "An account performance monitoring tool that analyzes trading systems across custom timeframes (30/60/90 days), with reporting and GHL integration.",
+          "image": null,
+          "tags": ["Web App", "Performance Analytics"],
+          "caseStudy": null,
+          "github": null,
+          "demo": "https://tubogaj.github.io/PerformanceChecker/",
+          "placeholder": false
+        },
+        {
+          "title": "Pulse.bot",
+          "description": "A trading performance analysis tool that extracts metrics from account screenshots and compiles multi-system growth, P&L and track-record reports for client documentation.",
+          "image": null,
+          "tags": ["Web App", "Trading Analytics"],
+          "caseStudy": null,
+          "github": null,
+          "demo": "https://importantfiles.github.io/Pulse.bot/",
+          "placeholder": false
+        },
+        {
+          "title": "Disen.You — Virtual Art Gallery",
+          "description": "An online portfolio gallery for an independent artist, showcasing art commissions, face painting and clay accessories with a built-in commission/contact hub.",
+          "image": null,
+          "tags": ["Portfolio Site", "Creative"],
+          "caseStudy": null,
+          "github": null,
+          "demo": "https://disen-you.github.io/virtual-gallery/",
+          "placeholder": false
+        },
+        {
+          "title": "Velantra Ops Guide",
+          "description": "An operational resource hub for a fintech trading platform — documentation, FAQs, troubleshooting guides and SOPs for staff and clients covering account management, trade-copying and compliance.",
+          "image": null,
+          "tags": ["Knowledge Base", "Documentation"],
+          "caseStudy": null,
+          "github": null,
+          "demo": "https://importantfiles.github.io/VelantraGuide/",
+          "placeholder": false
         }
       ]
     },
@@ -57,14 +107,54 @@
       "label": "Social Media Contents",
       "items": [
         {
-          "title": "Social Media Content Sample",
-          "description": "Add a sample of social media content created for a brand or client.",
+          "title": "Cleaning Service — Promo Reel",
+          "description": "Promotional reel for a cleaning service business, built around a \"get your time back\" message with branded contact details and hashtags.",
           "image": null,
-          "tags": ["Social Media", "Content Creation"],
+          "tags": ["Instagram Reel", "Marketing Creative"],
           "caseStudy": null,
           "github": null,
-          "demo": null,
-          "placeholder": true
+          "demo": "https://www.instagram.com/reel/C3IvG2Hs-aK/",
+          "placeholder": false
+        },
+        {
+          "title": "Post-Construction Cleaning — Promo Reel",
+          "description": "Reel for Natural Green Cleaning Services promoting eco-friendly, non-toxic post-construction cleaning for homes and businesses.",
+          "image": null,
+          "tags": ["Instagram Reel", "Marketing Creative"],
+          "caseStudy": null,
+          "github": null,
+          "demo": "https://www.instagram.com/reel/DHUNGX6s39S/",
+          "placeholder": false
+        },
+        {
+          "title": "Appliance Cleaning — Before/After Promo",
+          "description": "Before-and-after appliance cleaning post for Natural Green Cleaning Services, featuring a $75 special offer.",
+          "image": null,
+          "tags": ["Instagram Post", "Marketing Creative"],
+          "caseStudy": null,
+          "github": null,
+          "demo": "https://www.instagram.com/p/DAjaQJWTl04/",
+          "placeholder": false
+        },
+        {
+          "title": "Luxury Yacht Charter — Promo Post",
+          "description": "Promotional post for MPR VIP's luxury yacht charter service, inviting followers to book an exclusive experience.",
+          "image": null,
+          "tags": ["Instagram Post", "Marketing Creative"],
+          "caseStudy": null,
+          "github": null,
+          "demo": "https://www.instagram.com/p/C-du25dt4fm/",
+          "placeholder": false
+        },
+        {
+          "title": "Luxury Villa Rental — Promo Post",
+          "description": "Promotional post for a luxury villa rental in Coral Gables, FL, featuring add-on packages like private yacht and chauffeur services.",
+          "image": null,
+          "tags": ["Instagram Post", "Marketing Creative"],
+          "caseStudy": null,
+          "github": null,
+          "demo": "https://www.instagram.com/p/C-LsrN0N5n6/",
+          "placeholder": false
         }
       ]
     }
