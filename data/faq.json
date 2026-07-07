@@ -1,0 +1,69 @@
+{
+  "suggestedPrompts": [
+    "Tell me about AJ",
+    "Show my work",
+    "Can AJ build websites?",
+    "Tell me about Pulse.bot",
+    "Download CV",
+    "Contact AJ"
+  ],
+  "entries": [
+    {
+      "id": "about-aj",
+      "prompt": "Tell me about AJ",
+      "keywords": ["about", "who is aj", "background", "yourself", "who are you"],
+      "answer": "AJ Tubog is a data and marketing operations analyst turned business systems builder. He's spent 8+ years across BPO, SaaS and HR-tech companies auditing CRMs, building dashboards, and now builds automations, internal tools and websites for businesses that need to move faster than their current systems allow.",
+      "action": { "type": "scrollTo", "target": "#about" }
+    },
+    {
+      "id": "show-work",
+      "prompt": "Show my work",
+      "keywords": ["work", "portfolio", "projects", "case studies", "examples"],
+      "answer": "AJ's work spans dashboards, CRM audits, knowledge bases, internal tools, and websites. Check the My Work section below — it's organized into folders by category.",
+      "action": { "type": "scrollTo", "target": "#work" }
+    },
+    {
+      "id": "build-websites",
+      "prompt": "Can AJ build websites?",
+      "keywords": ["website", "web developer", "build a site", "web design"],
+      "answer": "Yes — AJ builds fast, clean business and portfolio websites, from simple brochure sites to sites backed by dashboards and internal tools. See the Websites & Portfolios folder in My Work for examples.",
+      "action": { "type": "scrollTo", "target": "#work" }
+    },
+    {
+      "id": "pulse-bot",
+      "prompt": "Tell me about Pulse.bot",
+      "keywords": ["pulse.bot", "pulse bot", "pulsebot"],
+      "answer": "Pulse.bot is one of AJ's automation projects. Full details are being added to the My Work section — reach out directly for specifics in the meantime.",
+      "action": { "type": "scrollTo", "target": "#work" }
+    },
+    {
+      "id": "download-cv",
+      "prompt": "Download CV",
+      "keywords": ["cv", "resume", "download resume"],
+      "answer": "Here's AJ's CV — click below to download it.",
+      "action": { "type": "download", "target": "resume.pdf" }
+    },
+    {
+      "id": "contact-aj",
+      "prompt": "Contact AJ",
+      "keywords": ["contact", "email", "hire", "get in touch", "reach out"],
+      "answer": "You can reach AJ directly at tubogaj@gmail.com, or use the contact buttons below for email, GitHub, LinkedIn, Facebook, Instagram and TikTok.",
+      "action": { "type": "scrollTo", "target": "#contact" }
+    },
+    {
+      "id": "skills",
+      "prompt": "What are AJ's skills?",
+      "keywords": ["skills", "tools", "tech stack", "what can you do"],
+      "answer": "AJ's core skills span data & analytics, marketing operations, CRM management, automation & systems, virtual assistance, and content & design. See the Skills section for the full list.",
+      "action": { "type": "scrollTo", "target": "#skills" }
+    },
+    {
+      "id": "experience",
+      "prompt": "Where has AJ worked?",
+      "keywords": ["experience", "employment history", "worked at", "companies"],
+      "answer": "AJ has worked with Employment Hero (Sydney), Dialpad (San Ramon, CA) and Quantrics Enterprises (Philippines) across marketing operations, CRM data, and business intelligence roles.",
+      "action": { "type": "scrollTo", "target": "#experience" }
+    }
+  ],
+  "fallback": "I can only answer questions about AJ's background, skills, work and services. Try one of the suggested prompts, or email tubogaj@gmail.com directly for anything else."
+}

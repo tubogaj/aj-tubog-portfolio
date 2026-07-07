@@ -1,77 +1,94 @@
 <!DOCTYPE html>
-<html>
-
+<html lang="en">
 <head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Marketing Dashboard — AJ Tubog</title>
+<meta name="description" content="Power BI dashboard analyzing campaign performance and marketing ROI, built by AJ Tubog.">
+<link rel="canonical" href="https://tubogaj.github.io/aj-tubog-portfolio/projects/marketing-dashboard.html">
 
-<title>Marketing Dashboard Project</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="preconnect" href="https://cdnjs.cloudflare.com" crossorigin>
 
-<link rel="stylesheet" href="../style.css">
+<link rel="stylesheet" href="../css/style.css">
 
+<link rel="preload" as="style" href="https://fonts.googleapis.com/css2?family=Sora:wght@400;600;700&family=Inter:wght@300;400;500;600&family=Caveat:wght@600;700&display=swap" onload="this.onload=null;this.rel='stylesheet'">
+<link rel="preload" as="style" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" onload="this.onload=null;this.rel='stylesheet'">
+<noscript>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Sora:wght@400;600;700&family=Inter:wght@300;400;500;600&family=Caveat:wght@600;700&display=swap">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+</noscript>
 </head>
 
 <body>
+<a class="skip-link" href="#main">Skip to content</a>
+<div class="ambient-bg" aria-hidden="true">
+  <span class="ambient-blob a"></span>
+  <span class="ambient-blob b"></span>
+  <span class="ambient-blob c"></span>
+</div>
+<canvas id="bgNetwork" class="bg-network" aria-hidden="true"></canvas>
 
-<header>
+<nav class="site-nav">
+  <a href="../index.html" class="brand"><span class="hash">#</span> AJ Tubog</a>
+  <a href="../index.html#work" class="btn btn-ghost btn-sm">← Back to My Work</a>
+</nav>
 
-<h1>Marketing Dashboard</h1>
+<main id="main">
+  <header class="section project-hero">
+    <div class="container">
+      <p class="eyebrow">Case Study</p>
+      <h1>Marketing Dashboard</h1>
+      <p class="subtitle">Power BI Marketing Analytics Dashboard</p>
+    </div>
+  </header>
 
-<p>Power BI Marketing Analytics Dashboard</p>
+  <section class="section section-tight">
+    <div class="container">
+      <img src="../images/marketing-dashboard.png" alt="Marketing Dashboard screenshot" class="project-image" width="1200" height="750" decoding="async">
 
-</header>
+      <div class="project-content">
+        <h2>Project Overview</h2>
+        <p>This dashboard analyzes marketing performance metrics including revenue, campaign effectiveness, lead generation, and visitor trends. The report provides marketing teams with actionable insights to evaluate campaign ROI and identify growth opportunities. Key metrics include monthly revenue, lead generation trends, campaign performance, and product sales distribution.</p>
+      </div>
 
-<section>
-<img src="../images/marketing-dashboard.png" class="project-image">
+      <div class="project-content">
+        <h2>Tools Used</h2>
+        <ul>
+          <li>Power BI</li>
+          <li>Marketing Analytics</li>
+          <li>Data Visualization</li>
+          <li>Business Intelligence Reporting</li>
+        </ul>
+      </div>
 
-<h2>Project Overview</h2>
+      <div class="project-content">
+        <h2>Key Insights</h2>
+        <ul>
+          <li>Email campaigns generated the highest conversion rate compared to other channels, contributing significantly to total revenue growth.</li>
+          <li>Lead generation increased steadily from September to December, indicating improved marketing funnel efficiency and campaign targeting.</li>
+          <li>Enterprise clients contributed the largest share of transaction value, highlighting the importance of focusing on high-value customer segments.</li>
+          <li>Campaign performance analysis showed that event-based marketing delivered higher ROI compared to email-only campaigns.</li>
+        </ul>
+      </div>
 
-<p>
-This dashboard analyzes marketing performance metrics including revenue,
-campaign effectiveness, lead generation, and visitor trends.
+      <a href="../index.html#work" class="btn btn-ghost">← Back to My Work</a>
+    </div>
+  </section>
+</main>
 
-The report provides marketing teams with actionable insights
-to evaluate campaign ROI and identify growth opportunities.
+<footer class="site-footer">
+  <div class="container">
+    <div class="footer-signature"><span class="hash">#</span> AJ Tubog</div>
+    <p class="footer-note">© <span id="year"></span> AJ Tubog. Built with intent, not templates.</p>
+  </div>
+</footer>
 
-Key metrics include monthly revenue, lead generation trends,
-campaign performance, and product sales distribution.
-</p>
-
-<h2>Tools Used</h2>
-
-<ul>
-<li>Power BI</li>
-<li>Marketing Analytics</li>
-<li>Data Visualization</li>
-<li>Business Intelligence Reporting</li>
-</ul>
-
-<h2>Key Insights</h2>
-
-<ul>
-
-<li>
-Email campaigns generated the highest conversion rate compared to other channels,
-contributing significantly to total revenue growth.
-</li>
-
-<li>
-Lead generation increased steadily from September to December, indicating improved
-marketing funnel efficiency and campaign targeting.
-</li>
-
-<li>
-Enterprise clients contributed the largest share of transaction value,
-highlighting the importance of focusing on high-value customer segments.
-</li>
-
-<li>
-Campaign performance analysis showed that event-based marketing delivered
-higher ROI compared to email-only campaigns.
-</li>
-
-</ul>
-
-</section>
-
+<script>document.getElementById('year').textContent = new Date().getFullYear();</script>
+<script type="module">
+  import { initParticles } from '../js/particles.js';
+  initParticles();
+</script>
 </body>
-
 </html>

@@ -1,537 +1,580 @@
 <!DOCTYPE html>
-<html>
-
+<html lang="en" class="no-js">
 <head>
+<script>document.documentElement.classList.replace('no-js','js');</script>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>AJ Tubog — Data Analyst, Business Systems Builder & Automation Specialist</title>
+<meta name="description" content="AJ Tubog transforms complex business processes into simple, scalable digital solutions — dashboards, automation, internal tools and websites for growing businesses.">
+<meta name="theme-color" content="#05070d">
 
-<title>AJ Tubog Portfolio</title>
+<meta property="og:type" content="website">
+<meta property="og:title" content="AJ Tubog — Data Analyst, Business Systems Builder & Automation Specialist">
+<meta property="og:description" content="Transforming complex business processes into simple, scalable digital solutions.">
+<meta property="og:image" content="https://tubogaj.github.io/aj-tubog-portfolio/images/profile.jpg">
+<meta property="og:url" content="https://tubogaj.github.io/aj-tubog-portfolio/">
 
-<link rel="stylesheet" href="style.css">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="AJ Tubog — Data Analyst, Business Systems Builder & Automation Specialist">
+<meta name="twitter:description" content="Transforming complex business processes into simple, scalable digital solutions.">
+<meta name="twitter:image" content="https://tubogaj.github.io/aj-tubog-portfolio/images/profile.jpg">
 
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
-<link href="https://fonts.googleapis.com/css2?family=Sora:wght@400;600;700&family=Inter:wght@300;400;500&display=swap" rel="stylesheet">
-  
+<link rel="canonical" href="https://tubogaj.github.io/aj-tubog-portfolio/">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="preconnect" href="https://cdnjs.cloudflare.com" crossorigin>
+
+<link rel="stylesheet" href="css/style.css">
+
+<link rel="preload" as="style" href="https://fonts.googleapis.com/css2?family=Sora:wght@400;600;700&family=Inter:wght@300;400;500;600&family=Caveat:wght@600;700&display=swap" onload="this.onload=null;this.rel='stylesheet'">
+<link rel="preload" as="style" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" onload="this.onload=null;this.rel='stylesheet'">
+<noscript>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Sora:wght@400;600;700&family=Inter:wght@300;400;500;600&family=Caveat:wght@600;700&display=swap">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+</noscript>
 </head>
-  
+
 <body>
-<div class="parallax-bg"></div>
-<nav>
-<a href="#about">About</a>
-<a href="#skills">Skills</a>
-<a href="#portfolio">Portfolio</a>
-<a href="#contact">Contact</a>
+<a class="skip-link" href="#main">Skip to content</a>
+
+<!-- Ambient decorative layers -->
+<div class="ambient-bg" aria-hidden="true">
+  <span class="ambient-blob a"></span>
+  <span class="ambient-blob b"></span>
+  <span class="ambient-blob c"></span>
+</div>
+<canvas id="bgNetwork" class="bg-network" aria-hidden="true"></canvas>
+<div class="cursor-glow" aria-hidden="true"></div>
+
+<!-- Preloader -->
+<div class="preloader" id="preloader" aria-hidden="true">
+  <div class="preloader-signature-wrap">
+    <div class="preloader-signature" id="preloaderSignature">AJ Tubog</div>
+    <span class="preloader-pen" id="preloaderPen"></span>
+  </div>
+  <div class="preloader-bar"><div class="preloader-bar-fill" id="preloaderBarFill"></div></div>
+</div>
+
+<!-- Nav -->
+<nav class="site-nav">
+  <a href="#hero" class="brand"><span class="hash">#</span> AJ Tubog</a>
+
+  <button class="nav-toggle" id="navToggle" aria-label="Toggle navigation menu" aria-expanded="false" aria-controls="navLinks">
+    <span></span>
+  </button>
+
+  <div class="nav-links" id="navLinks">
+    <a href="#about">About</a>
+    <a href="#experience">Experience</a>
+    <a href="#services">Services</a>
+    <a href="#work">My Work</a>
+    <a href="#skills">Skills</a>
+    <a href="#contact">Contact</a>
+  </div>
+
+  <a href="#contact" class="btn btn-primary btn-sm nav-cta">Let's Talk</a>
 </nav>
-  
-<header>
 
-<img src="images/profile.jpg" class="profile">
-
-<div class="hero-text">
-
-<h1>AJ Tubog</h1>
-
-<p id="typing"></p>
-
-<div class="hero-buttons">
-
-<a href="#portfolio">Work</a>
-<a href="#contact">Contact</a>
-
-</div>
-
-</div>
-
-</header>
-
-<section id="about" class="reveal">
-<h2>About Me</h2>
-
-<p>
-I am a Marketing Operations and Data Analyst with experience in marketing analytics,
-CRM data management and performance reporting. I specialize in transforming complex
-data into actionable insights that support business decisions and marketing strategy.</p>
-
-<p>My work includes building analytics dashboards, auditing CRM data quality, and
-developing internal tools that help teams monitor performance and improve operational
-efficiency. I have worked closely with marketing teams and account managers to analyze
-campaign performance, evaluate client account growth, and optimize reporting workflows.</p>
-
-<p>As a freelancer, I focus on helping businesses streamline their operations through
-data analysis, marketing reporting, CRM optimization, and internal system development.
-I also support teams with virtual assistance, documentation systems, and website
-development to improve productivity and organization.</p>
-
-<p>I am passionate about using data, automation, and modern tools to simplify processes,
-improve visibility into business performance, and help organizations scale more
-efficiently.</p>
-</p>
-
-</section>
-
-<section id="skills" class="reveal">
-
-<h2>Skills</h2>
-
-<div class="skills-columns">
-
-<!-- Data & Analytics -->
-
-<div class="skills-category">
-
-<h3>Data & Analytics</h3>
-
-<ul>
-<p>Data Analysis</p>
-<p>Research Analysis</p>
-<p>Data Reporting</p>
-<p>Performance Analysis</p>
-<p>Dashboard Development</p>
-<p>Data Visualization</p>
-</ul>
-
-</div>
-
-
-<!-- Marketing Operations -->
-
-<div class="skills-category">
-
-<h3>Marketing Operations</h3>
-
-<ul>
-<p>Marketing Reporting</p>
-<p>Campaign Performance Analysis</p>
-<p>Lead Analytics</p>
-<p>Marketing Dashboard Creation</p>
-<p>Marketing Analytics</p>
-</ul>
-
-</div>
-
-
-<!-- CRM Management -->
-
-<div class="skills-category">
-
-<h3>CRM Management</h3>
-
-<ul>
-<p>CRM Data Auditing</p>
-<p>CRM Data Quality Improvement</p>
-<p>Lead Management</p>
-<p>Data Segmentation</p>
-</ul>
-
-</div>
-
-
-<!-- Automation & Systems -->
-
-<div class="skills-category">
-
-<h3>Automation & Systems</h3>
-
-<ul>
-<p>Internal Tool Creation</p>
-<p>Website Building</p>
-<p>Documentation Systems</p>
-<p>Process Optimization</p>
-</ul>
-
-</div>
-
-
-<!-- Virtual Assistance -->
-
-<div class="skills-category">
-
-<h3>Virtual Assistance</h3>
-
-<ul>
-<p>Executive Support</p>
-<p>Web Research</p>
-<p>Spreadsheet Management</p>
-<p>Document Preparation</p>
-</ul>
-
-</div>
-
-
-<!-- Content & Design -->
-
-<div class="skills-category">
-
-<h3>Content & Design</h3>
-
-<ul>
-<p>Canva Design</p>
-<p>Social Media Branding</p>
-<p>Content Creation</p>
-<p>Product Photo Editing</p>
-<p>Video Editing (CapCut)</p>
-</ul>
-
-</div>
-
-</section>
-<section id="tools" class="reveal">
-
-<h2>Technology Stack</h2>
-
-<div class="tools-columns">
-
-<!-- Analytics -->
-
-<div class="tools-category">
-
-<h3>Analytics</h3>
-
-<div class="tools-grid">
-
-<div class="tool">
-<img src="https://img.icons8.com/color/96/microsoft-excel-2019.png">
-<p>Excel</p>
-</div>
-
-<div class="tool">
-<img src="https://upload.wikimedia.org/wikipedia/commons/c/cf/New_Power_BI_Logo.svg">
-<p>Power BI</p>
-</div>
-
-<div class="tool">
-<img src="https://img.icons8.com/color/96/microsoft-power-query.png">
-<p>Power Query</p>
-</div>
-
-<div class="tool">
-<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original.svg">
-<p>SQL</p>
-</div>
-
-<div class="tool">
-<img src="https://cdn.worldvectorlogo.com/logos/tableau-software.svg">
-<p>Tableau</p>
-</div>
-
-</div>
-
-</div>
-
-
-<!-- CRM & Marketing -->
-
-<div class="tools-category">
-
-<h3>CRM & Marketing</h3>
-
-<div class="tools-grid">
-
-<div class="tool">
-<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/salesforce/salesforce-original.svg">
-<p>Salesforce</p>
-</div>
-
-<div class="tool">
-<img src="https://img.icons8.com/color/96/adobe.png">
-<p>Marketo</p>
-</div>
-
-</div>
-
-</div>
-
-
-<!-- Development -->
-
-<div class="tools-category">
-
-<h3>Development</h3>
-
-<div class="tools-grid">
-
-<div class="tool">
-<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg">
-<p>GitHub</p>
-</div>
-
-<div class="tool">
-<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg">
-<p>HTML</p>
-</div>
-
-<div class="tool">
-<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg">
-<p>CSS</p>
-</div>
-
-<div class="tool">
-<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg">
-<p>JavaScript</p>
-</div>
-
-</div>
-
-</div>
-
-
-<!-- AI Tools -->
-
-<div class="tools-category">
-
-<h3>AI Tools</h3>
-
-<div class="tools-grid">
-
-<div class="tool">
-<img src="https://upload.wikimedia.org/wikipedia/commons/0/04/ChatGPT_logo.svg">
-<p>ChatGPT</p>
-</div>
-
-<div class="tool">
-<img src="https://img.icons8.com/color/96/google-gemini.png">
-<p>Gemini</p>
-</div>
-
-<div class="tool">
-<img src="https://img.icons8.com/fluency/96/artificial-intelligence.png">
-<p>Relevance AI</p>
-</div>
-
-</div>
-
-</div>
-
-
-<!-- Content & Design -->
-
-<div class="tools-category">
-
-<h3>Content & Design</h3>
-
-<div class="tools-grid">
-
-<div class="tool">
-<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/canva/canva-original.svg">
-<p>Canva</p>
-</div>
-
-<div class="tool">
-<img src="https://img.icons8.com/fluency/96/video-editing">
-<p>CapCut</p>
-</div>
-  
-<div class="tool">
-<img src="https://img.icons8.com/color/96/adobe-photoshop.png">
-<p>Photoshop</p>
-</div>
-
-</div>
-
-</div>
-
-
-</div>
-
-</section>
-    
-<section id="portfolio" class="reveal">
-
-<h2>Portfolio Projects</h2>
-
-<div class="portfolio-grid">
-
-<div class="project-card">
-
-<h3>Marketing Dashboard</h3>
-
-<p>
-Power BI dashboard analyzing campaign performance and marketing ROI.
-</p>
-
-<a href="projects/marketing-dashboard.html">View Project</a>
-
-</div>
-
-<div class="project-card">
-
-<h3>Salesforce Data Audit</h3>
-
-<p>
-CRM database audit identifying duplicates and improving data quality.
-</p>
-
-<a href="projects/salesforce-data-audit.html">View Project</a>
-
-</div>
-
-<div class="project-card">
-
-<h3>Trading Analytics</h3>
-
-<p>
-Performance analytics of automated trading systems including drawdown.
-</p>
-
-<a href="projects/trading-analytics.html">View Project</a>
-
-</div>
-
-</section>
-
-<section id="contact" class="reveal">
-
-<h2>Contact Me</h2>
-
-<form action="https://formspree.io/f/xeerjegj" method="POST">
-
-<input type="text" name="name" placeholder="Your Name" required>
-
-<input type="email" name="email" placeholder="Your Email" required>
-
-<textarea name="message" placeholder="Your Message" required></textarea>
-
-<button type="submit">Send Message</button>
-
-</form>
-
-</section>
-
-<footer>
-<p>© AJ Tubog Portfolio</p>
-
-<div class="footer-links">
-
-<a href="https://www.linkedin.com/in/aj-tubog-9726151a6" target="_blank">
-<i class="fab fa-linkedin"></i>
-</a>
-
-<a href="https://www.fiverr.com/ajtubog?public_mode=true" target="_blank">
-<i class="fas fa-briefcase"></i>
-</a>
-
-<a href="https://github.com/tubogaj" target="_blank">
-<i class="fab fa-github"></i>
-</a>
-
-</div>
-
+<main id="main">
+
+  <!-- 1. Hero -->
+  <header class="hero" id="hero">
+    <div class="container hero-inner">
+      <div class="hero-copy">
+        <p class="hero-name"><span class="hash">#</span> AJ Tubog</p>
+        <h1 class="hero-headline" data-reveal>Transforming Complex Business Processes into Simple, Scalable Digital Solutions.</h1>
+        <p class="hero-sub" data-reveal>Data Analyst • Business Systems Builder • Automation Specialist • Website Developer</p>
+        <div class="hero-actions" data-reveal>
+          <a href="#work" class="btn btn-primary magnetic">See My Work</a>
+          <a href="#contact" class="btn btn-ghost magnetic">Contact Me</a>
+        </div>
+      </div>
+      <div class="hero-portrait" data-reveal-scale>
+        <img src="images/profile.jpg" alt="Portrait of AJ Tubog" width="320" height="320" fetchpriority="high" decoding="async">
+      </div>
+    </div>
+  </header>
+
+  <!-- 2. Story-driven About -->
+  <section id="about" class="section">
+    <div class="container">
+      <div class="section-header">
+        <p class="eyebrow">About</p>
+        <h2 data-reveal>The short version of a longer story.</h2>
+      </div>
+
+      <div class="about-grid">
+        <div class="about-copy">
+          <p data-reveal>I started my career answering phones at a BPO in Taytay — not exactly where you'd expect a data analyst's story to begin. But years inside that operations floor taught me how much of a business's growth, or breakdown, quietly comes down to its processes and its data, and how well the two are connected.</p>
+          <p data-reveal>That curiosity carried me from customer service into reporting and business intelligence, then into marketing database work for a Silicon Valley SaaS company, and eventually into marketing operations for a global HR platform based in Sydney. Along the way I've audited CRMs holding hundreds of thousands of records, untangled broken lead-routing logic, and turned messy spreadsheets into dashboards people actually trust.</p>
+          <p data-reveal>Today I bring that same operator's eye to freelance and contract work — building dashboards, automations, internal tools, and websites for businesses that need to move faster than their current systems allow. I'm not chasing the newest framework; I'm chasing the fewest steps between a business having a problem and having a solution.</p>
+        </div>
+
+        <div class="about-stats">
+          <div class="glass-card about-stat" data-reveal>
+            <div class="value">8+</div>
+            <div class="label">Years across data, CRM & marketing operations</div>
+          </div>
+          <div class="glass-card about-stat" data-reveal>
+            <div class="value">3</div>
+            <div class="label">Industries: BPO, SaaS & HR Tech</div>
+          </div>
+          <div class="glass-card about-stat" data-reveal>
+            <div class="value">Remote-first</div>
+            <div class="label">Available for freelance & contract work</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- 3. Experience Timeline -->
+  <section id="experience" class="section">
+    <div class="container">
+      <div class="section-header">
+        <p class="eyebrow">Professional Experience</p>
+        <h2 data-reveal>Where the work actually happened.</h2>
+      </div>
+
+      <div class="timeline">
+        <div class="timeline-item" data-reveal>
+          <div class="timeline-role">Employment Hero</div>
+          <div class="timeline-meta"><span>Sydney, NSW, Australia</span></div>
+          <div class="timeline-position">
+            <h4>Marketing Operations Analyst <span class="period">Sep 2025 – Feb 2026</span></h4>
+            <ul>
+              <li>Conducted thorough audits and investigations of Marketo programs to identify discrepancies and issues.</li>
+              <li>Managed the uploading of lists to the Marketo platform.</li>
+              <li>Examined challenges related to lead routing and assignment.</li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="timeline-item" data-reveal>
+          <div class="timeline-role">Dialpad</div>
+          <div class="timeline-meta"><span>San Ramon, CA, USA</span></div>
+          <div class="timeline-position">
+            <h4>Marketing Database Analyst <span class="period">May 2023 – May 2025</span></h4>
+            <ul>
+              <li>Performed regular data hygiene audits within Salesforce to ensure accuracy, completeness and consistency of marketing data.</li>
+              <li>Created and analyzed reports for email deliverability performance.</li>
+              <li>Generated monthly Bizible cost reports and managed uploads for the marketing team.</li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="timeline-item" data-reveal>
+          <div class="timeline-role">Quantrics Enterprises</div>
+          <div class="timeline-meta"><span>Taytay, Rizal, Philippines</span></div>
+
+          <div class="timeline-position">
+            <h4>Analyst, Reporting &amp; Business Intelligence <span class="period">Jul 2019 – May 2023</span></h4>
+            <ul>
+              <li>Performed system analysis, documentation, testing, implementation and user support for platform transitions.</li>
+              <li>Identified and resolved problems through root cause analysis and research.</li>
+            </ul>
+          </div>
+
+          <div class="timeline-position">
+            <h4>Intraday Analyst <span class="period">Sep 2018 – Jul 2019</span></h4>
+            <ul>
+              <li>Built extensive experience in data entry, analysis and reporting.</li>
+              <li>Applied effective time management techniques to meet tight deadlines under real-time pressure.</li>
+            </ul>
+          </div>
+
+          <div class="timeline-position">
+            <h4>Customer Service Representative <span class="period">Aug 2017 – Sep 2018</span></h4>
+            <ul>
+              <li>Answered customer telephone calls promptly to assist with account inquiries and update requests.</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- 4. How I Can Help -->
+  <section id="services" class="section">
+    <div class="container">
+      <div class="section-header center">
+        <p class="eyebrow">How I Can Help</p>
+        <h2 data-reveal>Outcomes, not just deliverables.</h2>
+      </div>
+
+      <div class="grid grid-3">
+        <div class="glass-card service-card" data-reveal>
+          <div class="service-icon"><i class="fa-solid fa-chart-line"></i></div>
+          <h3>Business Analytics</h3>
+          <p>Turn scattered spreadsheets and exports into clear, decision-ready reporting — so you know what's actually driving performance, not just what happened last month.</p>
+        </div>
+        <div class="glass-card service-card" data-reveal>
+          <div class="service-icon"><i class="fa-solid fa-gears"></i></div>
+          <h3>Workflow Automation</h3>
+          <p>Remove the manual, repetitive steps eating your team's time — from list uploads to lead routing — so people spend hours on judgment calls, not data entry.</p>
+        </div>
+        <div class="glass-card service-card" data-reveal>
+          <div class="service-icon"><i class="fa-solid fa-table-columns"></i></div>
+          <h3>Dashboards</h3>
+          <p>Live, single-source-of-truth dashboards for marketing, sales or operations performance, built so non-analysts can actually read them.</p>
+        </div>
+      </div>
+
+      <div class="grid grid-4">
+        <div class="glass-card service-card" data-reveal>
+          <div class="service-icon"><i class="fa-solid fa-globe"></i></div>
+          <h3>Websites</h3>
+          <p>Fast, clean websites and portfolios that represent your business the way it deserves — without the bloat or the agency price tag.</p>
+        </div>
+        <div class="glass-card service-card" data-reveal>
+          <div class="service-icon"><i class="fa-solid fa-toolbox"></i></div>
+          <h3>Internal Business Tools</h3>
+          <p>Purpose-built internal tools and trackers that fit how your team actually works, instead of forcing your team to work around generic software.</p>
+        </div>
+        <div class="glass-card service-card" data-reveal>
+          <div class="service-icon"><i class="fa-solid fa-users-gear"></i></div>
+          <h3>CRM & Marketing Operations</h3>
+          <p>Cleaner CRM data, smarter segmentation, and marketing operations that don't quietly break every quarter.</p>
+        </div>
+        <div class="glass-card service-card" data-reveal>
+          <div class="service-icon"><i class="fa-solid fa-file-lines"></i></div>
+          <h3>SOPs & Documentation</h3>
+          <p>Documented processes and knowledge bases so critical steps live in a system, not in one person's head.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- 5. What I Build -->
+  <section class="section section-tight statement">
+    <div class="container">
+      <h2 data-reveal>I Don't Just Build Websites.<br>I Build Business Solutions.</h2>
+      <p data-reveal>Every dashboard, automation, and site I ship is built to remove friction from a real business process — not to win a design award.</p>
+    </div>
+  </section>
+
+  <!-- 6. My Work -->
+  <section id="work" class="section">
+    <div class="container">
+      <div class="section-header">
+        <p class="eyebrow">My Work</p>
+        <h2 data-reveal>Browse by category.</h2>
+      </div>
+
+      <div class="work-folders" id="workFolders">
+
+        <details class="folder is-open" data-reveal open>
+          <summary class="folder-summary">
+            <span class="folder-icon"><i class="fa-solid fa-chevron-right"></i></span>
+            <span>Websites / Portfolios</span>
+            <span class="folder-count">1 project</span>
+          </summary>
+          <div class="folder-body">
+            <div class="work-grid">
+              <article class="work-card">
+                <div class="work-card-media"></div>
+                <div class="work-card-body">
+                  <h4>AJ Tubog Portfolio</h4>
+                  <p>This site — a cinematic personal brand site built to showcase data, automation and web development work.</p>
+                  <div class="work-card-tags"><span class="tag">HTML</span><span class="tag">CSS</span><span class="tag">JavaScript</span><span class="tag">GSAP</span></div>
+                  <div class="work-card-links">
+                    <a href="https://github.com/tubogaj/aj-tubog-portfolio" target="_blank" rel="noopener">GitHub →</a>
+                    <a href="https://tubogaj.github.io/aj-tubog-portfolio/" target="_blank" rel="noopener">Live Demo →</a>
+                  </div>
+                </div>
+              </article>
+            </div>
+          </div>
+        </details>
+
+        <details class="folder" data-reveal>
+          <summary class="folder-summary">
+            <span class="folder-icon"><i class="fa-solid fa-chevron-right"></i></span>
+            <span>Dashboards</span>
+            <span class="folder-count">3 projects</span>
+          </summary>
+          <div class="folder-body">
+            <div class="work-grid">
+              <article class="work-card">
+                <div class="work-card-media"><img src="images/marketing-dashboard.png" alt="Marketing Dashboard screenshot" loading="lazy" decoding="async" width="640" height="400"></div>
+                <div class="work-card-body">
+                  <h4>Marketing Dashboard</h4>
+                  <p>Power BI dashboard analyzing campaign performance and marketing ROI, giving marketing teams a single view of revenue, lead generation and channel performance.</p>
+                  <div class="work-card-tags"><span class="tag">Power BI</span><span class="tag">Marketing Analytics</span><span class="tag">Data Visualization</span></div>
+                  <div class="work-card-links"><a href="projects/marketing-dashboard.html">Case Study →</a></div>
+                </div>
+              </article>
+              <article class="work-card">
+                <div class="work-card-media"><img src="images/account-performance-dashboard.png" alt="Trading system performance analytics screenshot" loading="lazy" decoding="async" width="640" height="400"></div>
+                <div class="work-card-body">
+                  <h4>Trading System Performance Analytics</h4>
+                  <p>Performance analytics dashboard tracking profitability, win rate and drawdown for automated trading systems.</p>
+                  <div class="work-card-tags"><span class="tag">Excel</span><span class="tag">Performance Analytics</span><span class="tag">FXBlue</span></div>
+                  <div class="work-card-links"><a href="projects/trading-analytics.html">Case Study →</a></div>
+                </div>
+              </article>
+              <article class="work-card">
+                <div class="work-card-media"><img src="images/salesforce-audit-dashboard.png" alt="Salesforce data audit screenshot" loading="lazy" decoding="async" width="640" height="400"></div>
+                <div class="work-card-body">
+                  <h4>Salesforce Data Audit</h4>
+                  <p>CRM database audit identifying duplicate records, missing fields and inconsistencies affecting campaign reporting accuracy.</p>
+                  <div class="work-card-tags"><span class="tag">Salesforce</span><span class="tag">Data Cleaning</span><span class="tag">CRM Analysis</span></div>
+                  <div class="work-card-links"><a href="projects/salesforce-data-audit.html">Case Study →</a></div>
+                </div>
+              </article>
+            </div>
+          </div>
+        </details>
+
+        <details class="folder" data-reveal>
+          <summary class="folder-summary">
+            <span class="folder-icon"><i class="fa-solid fa-chevron-right"></i></span>
+            <span>Social Media Contents</span>
+            <span class="folder-count">Coming soon</span>
+          </summary>
+          <div class="folder-body">
+            <div class="work-grid">
+              <article class="work-card is-placeholder">
+                <div class="work-card-media"></div>
+                <div class="work-card-body">
+                  <h4>Social Media Content Sample</h4>
+                  <p>Add a sample of social media content created for a brand or client.</p>
+                  <div class="work-card-tags"><span class="tag">Social Media</span><span class="tag">Content Creation</span></div>
+                </div>
+              </article>
+            </div>
+          </div>
+        </details>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- 7. Skills -->
+  <section id="skills" class="section">
+    <div class="container">
+      <div class="section-header">
+        <p class="eyebrow">Skills</p>
+        <h2 data-reveal>Where I add the most value.</h2>
+      </div>
+
+      <div class="skills-groups">
+        <div class="skills-group" data-reveal>
+          <h3>Data & Analytics</h3>
+          <div class="pill-row">
+            <span class="pill">Data Analysis</span>
+            <span class="pill">Research Analysis</span>
+            <span class="pill">Data Reporting</span>
+            <span class="pill">Performance Analysis</span>
+            <span class="pill">Dashboard Development</span>
+            <span class="pill">Data Visualization</span>
+          </div>
+        </div>
+        <div class="skills-group" data-reveal>
+          <h3>Marketing Operations</h3>
+          <div class="pill-row">
+            <span class="pill">Marketing Reporting</span>
+            <span class="pill">Campaign Performance Analysis</span>
+            <span class="pill">Lead Analytics</span>
+            <span class="pill">Marketing Dashboard Creation</span>
+            <span class="pill">Marketing Analytics</span>
+          </div>
+        </div>
+        <div class="skills-group" data-reveal>
+          <h3>CRM Management</h3>
+          <div class="pill-row">
+            <span class="pill">CRM Data Auditing</span>
+            <span class="pill">CRM Data Quality Improvement</span>
+            <span class="pill">Lead Management</span>
+            <span class="pill">Data Segmentation</span>
+          </div>
+        </div>
+        <div class="skills-group" data-reveal>
+          <h3>Automation & Systems</h3>
+          <div class="pill-row">
+            <span class="pill">Internal Tool Creation</span>
+            <span class="pill">Website Building</span>
+            <span class="pill">Documentation Systems</span>
+            <span class="pill">Process Optimization</span>
+          </div>
+        </div>
+        <div class="skills-group" data-reveal>
+          <h3>Virtual Assistance</h3>
+          <div class="pill-row">
+            <span class="pill">Executive Support</span>
+            <span class="pill">Web Research</span>
+            <span class="pill">Spreadsheet Management</span>
+            <span class="pill">Document Preparation</span>
+          </div>
+        </div>
+        <div class="skills-group" data-reveal>
+          <h3>Content & Design</h3>
+          <div class="pill-row">
+            <span class="pill">Canva Design</span>
+            <span class="pill">Social Media Branding</span>
+            <span class="pill">Content Creation</span>
+            <span class="pill">Product Photo Editing</span>
+            <span class="pill">Video Editing (CapCut)</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- 8. Industries I've Worked With -->
+  <section id="industries" class="section section-tight">
+    <div class="container">
+      <div class="section-header center">
+        <p class="eyebrow">Industries I've Worked With</p>
+        <h2 data-reveal>Different rooms, same operator's eye.</h2>
+      </div>
+
+      <div class="industries-row">
+        <div class="glass-card industry-chip" data-reveal>
+          <h3>SaaS & Technology</h3>
+          <p>Marketing database operations for a fast-growing communications platform.</p>
+        </div>
+        <div class="glass-card industry-chip" data-reveal>
+          <h3>HR Tech</h3>
+          <p>Marketing operations & Marketo audits for a global HR & payroll platform.</p>
+        </div>
+        <div class="glass-card industry-chip" data-reveal>
+          <h3>BPO & Business Process Outsourcing</h3>
+          <p>Five years in reporting, business intelligence & customer operations.</p>
+        </div>
+        <div class="glass-card industry-chip" data-reveal>
+          <h3>Trading & Fintech</h3>
+          <p>Performance analytics and self-service guides for automated trading platforms.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- 9. Why Clients Hire Me -->
+  <section id="why" class="section">
+    <div class="container">
+      <div class="section-header center">
+        <p class="eyebrow">Why Clients Hire Me</p>
+        <h2 data-reveal>Because the work has to hold up after I leave the room.</h2>
+      </div>
+
+      <div class="why-grid">
+        <div class="glass-card why-card" data-reveal>
+          <div class="why-index">01</div>
+          <h3>I speak both business and data</h3>
+          <p>I've sat on the operations side of the table, so I build reporting people actually use instead of dashboards that just look good in a demo.</p>
+        </div>
+        <div class="glass-card why-card" data-reveal>
+          <div class="why-index">02</div>
+          <h3>I've worked inside real CRMs at scale</h3>
+          <p>Salesforce and Marketo audits across hundreds of thousands of records — I know where data quality quietly breaks.</p>
+        </div>
+        <div class="glass-card why-card" data-reveal>
+          <div class="why-index">03</div>
+          <h3>I document everything</h3>
+          <p>SOPs and knowledge bases aren't an afterthought; they're how your team keeps running without me in the room.</p>
+        </div>
+        <div class="glass-card why-card" data-reveal>
+          <div class="why-index">04</div>
+          <h3>I ship, not just plan</h3>
+          <p>From audit to automation to a live dashboard or website — I build the whole path, not just a slide deck.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- 10. CTA -->
+  <section class="section section-tight cta-section">
+    <div class="container">
+      <div class="glass-card cta-panel" data-reveal>
+        <h2>Have a process that's outgrown your current tools?</h2>
+        <p>Let's talk about what a cleaner dashboard, a faster workflow, or a proper website could do for your business.</p>
+        <div class="cta-actions">
+          <a href="#contact" class="btn btn-primary magnetic">Start a Conversation</a>
+          <a href="resume.pdf" class="btn btn-ghost magnetic" download>Download CV</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- 11. Contact -->
+  <section id="contact" class="section">
+    <div class="container">
+      <div class="section-header center">
+        <p class="eyebrow">Contact</p>
+        <h2 data-reveal>Let's build something that holds up.</h2>
+      </div>
+
+      <div class="contact-grid">
+        <a class="btn btn-ghost contact-btn magnetic" href="resume.pdf" download>
+          <i class="fa-solid fa-file-arrow-down"></i> Download CV
+        </a>
+        <a class="btn btn-ghost contact-btn magnetic" href="mailto:tubogaj@gmail.com">
+          <i class="fa-solid fa-envelope"></i> Email
+        </a>
+        <a class="btn btn-ghost contact-btn magnetic" href="https://github.com/tubogaj" target="_blank" rel="noopener">
+          <i class="fa-brands fa-github"></i> GitHub
+        </a>
+        <a class="btn btn-ghost contact-btn magnetic" href="https://www.linkedin.com/in/aj-tubog-9726151a6" target="_blank" rel="noopener">
+          <i class="fa-brands fa-linkedin"></i> LinkedIn
+        </a>
+        <a class="btn btn-ghost contact-btn magnetic" href="https://www.facebook.com/share/18z7fk2Nf5/?mibextid=wwXIfr" target="_blank" rel="noopener">
+          <i class="fa-brands fa-facebook"></i> Facebook
+        </a>
+        <a class="btn btn-ghost contact-btn magnetic" href="https://www.instagram.com/ajtubog00123?igsh=MTE2dmZwcXJubjM4ag%3D%3D&utm_source=qr" target="_blank" rel="noopener">
+          <i class="fa-brands fa-instagram"></i> Instagram
+        </a>
+        <a class="btn btn-ghost contact-btn magnetic" href="https://www.tiktok.com/@ajtubog00123?_r=1&_t=ZS-97pmQ4rKpIu" target="_blank" rel="noopener">
+          <i class="fa-brands fa-tiktok"></i> TikTok
+        </a>
+      </div>
+    </div>
+  </section>
+
+</main>
+
+<!-- 12. Footer -->
+<footer class="site-footer">
+  <div class="container">
+    <div class="footer-signature"><span class="hash">#</span> AJ Tubog</div>
+    <div class="footer-links">
+      <a href="https://github.com/tubogaj" target="_blank" rel="noopener" aria-label="GitHub"><i class="fa-brands fa-github"></i></a>
+      <a href="https://www.linkedin.com/in/aj-tubog-9726151a6" target="_blank" rel="noopener" aria-label="LinkedIn"><i class="fa-brands fa-linkedin"></i></a>
+      <a href="https://www.facebook.com/share/18z7fk2Nf5/?mibextid=wwXIfr" target="_blank" rel="noopener" aria-label="Facebook"><i class="fa-brands fa-facebook"></i></a>
+      <a href="https://www.instagram.com/ajtubog00123?igsh=MTE2dmZwcXJubjM4ag%3D%3D&utm_source=qr" target="_blank" rel="noopener" aria-label="Instagram"><i class="fa-brands fa-instagram"></i></a>
+      <a href="https://www.tiktok.com/@ajtubog00123?_r=1&_t=ZS-97pmQ4rKpIu" target="_blank" rel="noopener" aria-label="TikTok"><i class="fa-brands fa-tiktok"></i></a>
+      <a href="mailto:tubogaj@gmail.com" aria-label="Email"><i class="fa-solid fa-envelope"></i></a>
+    </div>
+    <p class="footer-note">© <span id="year"></span> AJ Tubog. Built with intent, not templates.</p>
+  </div>
 </footer>
-<script>
 
-const reveals = document.querySelectorAll(".reveal");
+<!-- ChatAJT floating assistant -->
+<button class="chatajt-launcher" id="chatajtLauncher" aria-haspopup="dialog" aria-controls="chatajtPanel" aria-expanded="false">
+  <span class="dot" aria-hidden="true"></span> Ask ChatAJT
+</button>
 
-window.addEventListener("scroll",()=>{
+<div class="chatajt-panel" id="chatajtPanel" role="dialog" aria-modal="false" aria-labelledby="chatajtTitle">
+  <div class="chatajt-header">
+    <strong id="chatajtTitle">ChatAJT</strong>
+    <button class="chatajt-close" id="chatajtClose" aria-label="Close ChatAJT">✕</button>
+  </div>
+  <div class="chatajt-messages" id="chatajtMessages" aria-live="polite">
+    <div class="chatajt-msg bot">Hi, I'm ChatAJT 👋 Ask me about AJ's background, skills, or work — I only know what's on this site.</div>
+  </div>
+  <div class="chatajt-prompts" id="chatajtPrompts"></div>
+  <form class="chatajt-form" id="chatajtForm">
+    <label for="chatajtInput" class="visually-hidden">Ask ChatAJT a question</label>
+    <input type="text" id="chatajtInput" placeholder="Ask a question…" autocomplete="off">
+    <button type="submit" aria-label="Send"><i class="fa-solid fa-arrow-up"></i></button>
+  </form>
+</div>
 
-for(let i=0;i<reveals.length;i++){
+<script src="https://unpkg.com/@studio-freight/lenis@1.0.42/dist/lenis.min.js" defer></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js" defer></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js" defer></script>
 
-let windowHeight = window.innerHeight;
-
-let elementTop = reveals[i].getBoundingClientRect().top;
-
-let revealPoint = 120;
-
-if(elementTop < windowHeight - revealPoint){
-
-reveals[i].classList.add("active");
-
-}
-
-}
-
-});
-
-</script>
-<script>
-
-const parallax = document.querySelector(".parallax-bg");
-
-document.addEventListener("mousemove", function(e){
-
-let x = (window.innerWidth / 2 - e.clientX) / 40;
-let y = (window.innerHeight / 2 - e.clientY) / 40;
-
-parallax.style.transform = `translate(${x}px, ${y}px)`;
-
-});
-
-</script>
-
-<script>
-
-const text = "Marketing Operations Analyst | Data Analyst | Virtual Assistant";
-
-let index = 0;
-
-function typeEffect(){
-
-if(index < text.length){
-
-document.getElementById("typing").innerHTML += text.charAt(index);
-
-index++;
-
-setTimeout(typeEffect,40);
-
-}
-
-}
-
-typeEffect();
-
-</script>
-
-<script>
-
-const glow = document.querySelector('.cursor-glow')
-
-document.addEventListener('mousemove', e => {
-
-glow.style.left = e.clientX + "px"
-glow.style.top = e.clientY + "px"
-
-})
-
-</script>
-
-<script>
-
-const container = document.querySelector(".tech-nodes")
-
-for(let i=0;i<40;i++){
-
-let node = document.createElement("span")
-
-node.style.left = Math.random()*100 + "%"
-node.style.top = Math.random()*100 + "%"
-
-node.style.animationDuration = (8 + Math.random()*10) + "s"
-
-container.appendChild(node)
-
-}
-
-</script>
-  
+<script type="module" src="js/main.js"></script>
 </body>
-
 </html>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-

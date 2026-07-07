@@ -1,70 +1,94 @@
 <!DOCTYPE html>
-<html>
-
+<html lang="en">
 <head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Trading System Performance Analytics — AJ Tubog</title>
+<meta name="description" content="Performance analysis of automated trading strategies, built by AJ Tubog.">
+<link rel="canonical" href="https://tubogaj.github.io/aj-tubog-portfolio/projects/trading-analytics.html">
 
-<title>Trading Analytics</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="preconnect" href="https://cdnjs.cloudflare.com" crossorigin>
 
-<link rel="stylesheet" href="../style.css">
+<link rel="stylesheet" href="../css/style.css">
 
+<link rel="preload" as="style" href="https://fonts.googleapis.com/css2?family=Sora:wght@400;600;700&family=Inter:wght@300;400;500;600&family=Caveat:wght@600;700&display=swap" onload="this.onload=null;this.rel='stylesheet'">
+<link rel="preload" as="style" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" onload="this.onload=null;this.rel='stylesheet'">
+<noscript>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Sora:wght@400;600;700&family=Inter:wght@300;400;500;600&family=Caveat:wght@600;700&display=swap">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+</noscript>
 </head>
 
 <body>
+<a class="skip-link" href="#main">Skip to content</a>
+<div class="ambient-bg" aria-hidden="true">
+  <span class="ambient-blob a"></span>
+  <span class="ambient-blob b"></span>
+  <span class="ambient-blob c"></span>
+</div>
+<canvas id="bgNetwork" class="bg-network" aria-hidden="true"></canvas>
 
-<header>
+<nav class="site-nav">
+  <a href="../index.html" class="brand"><span class="hash">#</span> AJ Tubog</a>
+  <a href="../index.html#work" class="btn btn-ghost btn-sm">← Back to My Work</a>
+</nav>
 
-<h1>Trading System Performance Analytics</h1>
+<main id="main">
+  <header class="section project-hero">
+    <div class="container">
+      <p class="eyebrow">Case Study</p>
+      <h1>Trading System Performance Analytics</h1>
+      <p class="subtitle">Performance Analysis of Automated Trading Strategies</p>
+    </div>
+  </header>
 
-<p>Performance Analysis of Automated Trading Strategies</p>
+  <section class="section section-tight">
+    <div class="container">
+      <img src="../images/account-performance-dashboard.png" alt="Trading system performance analytics screenshot" class="project-image" width="1200" height="750" decoding="async">
 
-</header>
-<img src="../images/account-performance-dashboard.png" class="project-image">
-<section>
+      <div class="project-content">
+        <h2>Project Overview</h2>
+        <p>This project analyzes the performance of automated trading systems by tracking key metrics such as profitability, trade frequency, win rate, and drawdown. The analysis helps evaluate system stability and risk exposure.</p>
+      </div>
 
-<h2>Project Overview</h2>
+      <div class="project-content">
+        <h2>Tools Used</h2>
+        <ul>
+          <li>Excel</li>
+          <li>Data Visualization</li>
+          <li>Performance Analytics</li>
+          <li>FXBlue</li>
+        </ul>
+      </div>
 
-<p>
-This project analyzes the performance of automated trading systems by tracking
-key metrics such as profitability, trade frequency, win rate, and drawdown.
-The analysis helps evaluate system stability and risk exposure.
-</p>
+      <div class="project-content">
+        <h2>Key Insights</h2>
+        <ul>
+          <li>Trading performance showed consistent monthly profitability with moderate drawdown levels.</li>
+          <li>Win rate analysis indicated that risk management settings had a stronger impact on profitability than trade frequency.</li>
+          <li>Trade clustering during high volatility periods increased overall exposure risk.</li>
+          <li>Adjusting lot sizing and trade timing improved risk-adjusted returns.</li>
+        </ul>
+      </div>
 
-<h2>Tools Used</h2>
+      <a href="../index.html#work" class="btn btn-ghost">← Back to My Work</a>
+    </div>
+  </section>
+</main>
 
-<ul>
-<li>Excel</li>
-<li>Data Visualization</li>
-<li>Performance Analytics</li>
-<li>FXBlue</li>
-</ul>
+<footer class="site-footer">
+  <div class="container">
+    <div class="footer-signature"><span class="hash">#</span> AJ Tubog</div>
+    <p class="footer-note">© <span id="year"></span> AJ Tubog. Built with intent, not templates.</p>
+  </div>
+</footer>
 
-<h2>Key Insights</h2>
-
-<ul>
-
-<li>
-Trading performance showed consistent monthly profitability with moderate
-drawdown levels.
-</li>
-
-<li>
-Win rate analysis indicated that risk management settings had a stronger
-impact on profitability than trade frequency.
-</li>
-
-<li>
-Trade clustering during high volatility periods increased overall exposure
-risk.
-</li>
-
-<li>
-Adjusting lot sizing and trade timing improved risk-adjusted returns.
-</li>
-
-</ul>
-
-</section>
-
+<script>document.getElementById('year').textContent = new Date().getFullYear();</script>
+<script type="module">
+  import { initParticles } from '../js/particles.js';
+  initParticles();
+</script>
 </body>
-
 </html>

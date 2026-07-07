@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://tubogaj.github.io/aj-tubog-portfolio/sitemap.xml

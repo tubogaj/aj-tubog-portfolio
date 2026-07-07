@@ -1,0 +1,28 @@
+{
+  "groups": [
+    {
+      "name": "Data & Analytics",
+      "items": ["Data Analysis", "Research Analysis", "Data Reporting", "Performance Analysis", "Dashboard Development", "Data Visualization"]
+    },
+    {
+      "name": "Marketing Operations",
+      "items": ["Marketing Reporting", "Campaign Performance Analysis", "Lead Analytics", "Marketing Dashboard Creation", "Marketing Analytics"]
+    },
+    {
+      "name": "CRM Management",
+      "items": ["CRM Data Auditing", "CRM Data Quality Improvement", "Lead Management", "Data Segmentation"]
+    },
+    {
+      "name": "Automation & Systems",
+      "items": ["Internal Tool Creation", "Website Building", "Documentation Systems", "Process Optimization"]
+    },
+    {
+      "name": "Virtual Assistance",
+      "items": ["Executive Support", "Web Research", "Spreadsheet Management", "Document Preparation"]
+    },
+    {
+      "name": "Content & Design",
+      "items": ["Canva Design", "Social Media Branding", "Content Creation", "Product Photo Editing", "Video Editing (CapCut)"]
+    }
+  ]
+}

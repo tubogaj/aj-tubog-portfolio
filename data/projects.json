@@ -1,0 +1,72 @@
+{
+  "folders": [
+    {
+      "id": "websites-portfolios",
+      "label": "Websites / Portfolios",
+      "items": [
+        {
+          "title": "AJ Tubog Portfolio",
+          "description": "This site — a cinematic personal brand site built to showcase data, automation and web development work.",
+          "image": null,
+          "tags": ["HTML", "CSS", "JavaScript", "GSAP"],
+          "caseStudy": null,
+          "github": "https://github.com/tubogaj/aj-tubog-portfolio",
+          "demo": "https://tubogaj.github.io/aj-tubog-portfolio/",
+          "placeholder": false
+        }
+      ]
+    },
+    {
+      "id": "dashboards",
+      "label": "Dashboards",
+      "items": [
+        {
+          "title": "Marketing Dashboard",
+          "description": "Power BI dashboard analyzing campaign performance and marketing ROI, giving marketing teams a single view of revenue, lead generation and channel performance.",
+          "image": "images/marketing-dashboard.png",
+          "tags": ["Power BI", "Marketing Analytics", "Data Visualization"],
+          "caseStudy": "projects/marketing-dashboard.html",
+          "github": null,
+          "demo": null,
+          "placeholder": false
+        },
+        {
+          "title": "Trading System Performance Analytics",
+          "description": "Performance analytics dashboard tracking profitability, win rate and drawdown for automated trading systems.",
+          "image": "images/account-performance-dashboard.png",
+          "tags": ["Excel", "Performance Analytics", "FXBlue"],
+          "caseStudy": "projects/trading-analytics.html",
+          "github": null,
+          "demo": null,
+          "placeholder": false
+        },
+        {
+          "title": "Salesforce Data Audit",
+          "description": "CRM database audit identifying duplicate records, missing fields and inconsistencies affecting campaign reporting accuracy.",
+          "image": "images/salesforce-audit-dashboard.png",
+          "tags": ["Salesforce", "Data Cleaning", "CRM Analysis"],
+          "caseStudy": "projects/salesforce-data-audit.html",
+          "github": null,
+          "demo": null,
+          "placeholder": false
+        }
+      ]
+    },
+    {
+      "id": "social-media-contents",
+      "label": "Social Media Contents",
+      "items": [
+        {
+          "title": "Social Media Content Sample",
+          "description": "Add a sample of social media content created for a brand or client.",
+          "image": null,
+          "tags": ["Social Media", "Content Creation"],
+          "caseStudy": null,
+          "github": null,
+          "demo": null,
+          "placeholder": true
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,42 @@
+{
+  "name": "AJ Tubog",
+  "signature": "AJ Tubog",
+  "headline": "Transforming Complex Business Processes into Simple, Scalable Digital Solutions.",
+  "secondaryLine": "Data Analyst • Business Systems Builder • Automation Specialist • Website Developer",
+  "location": "Rizal, Philippines",
+  "email": "tubogaj@gmail.com",
+  "story": [
+    "I started my career answering phones at a BPO in Taytay — not exactly where you'd expect a data analyst's story to begin. But years inside that operations floor taught me how much of a business's growth, or breakdown, quietly comes down to its processes and its data, and how well the two are connected.",
+    "That curiosity carried me from customer service into reporting and business intelligence, then into marketing database work for a Silicon Valley SaaS company, and eventually into marketing operations for a global HR platform based in Sydney. Along the way I've audited CRMs holding hundreds of thousands of records, untangled broken lead-routing logic, and turned messy spreadsheets into dashboards people actually trust.",
+    "Today I bring that same operator's eye to freelance and contract work — building dashboards, automations, internal tools, and websites for businesses that need to move faster than their current systems allow. I'm not chasing the newest framework; I'm chasing the fewest steps between a business having a problem and having a solution."
+  ],
+  "stats": [
+    { "value": "8+", "label": "Years across data, CRM & marketing operations" },
+    { "value": "3", "label": "Industries: BPO, SaaS & HR Tech" },
+    { "value": "Remote-first", "label": "Available for freelance & contract work" }
+  ],
+  "industries": [
+    { "name": "SaaS & Technology", "detail": "Marketing database operations for a fast-growing communications platform." },
+    { "name": "HR Tech", "detail": "Marketing operations & Marketo audits for a global HR & payroll platform." },
+    { "name": "BPO & Business Process Outsourcing", "detail": "Five years in reporting, business intelligence & customer operations." },
+    { "name": "Trading & Fintech", "detail": "Performance analytics and self-service guides for automated trading platforms." }
+  ],
+  "whyHireMe": [
+    {
+      "title": "I speak both business and data",
+      "detail": "I've sat on the operations side of the table, so I build reporting people actually use instead of dashboards that just look good in a demo."
+    },
+    {
+      "title": "I've worked inside real CRMs at scale",
+      "detail": "Salesforce and Marketo audits across hundreds of thousands of records — I know where data quality quietly breaks."
+    },
+    {
+      "title": "I document everything",
+      "detail": "SOPs and knowledge bases aren't an afterthought; they're how your team keeps running without me in the room."
+    },
+    {
+      "title": "I ship, not just plan",
+      "detail": "From audit to automation to a live dashboard or website — I build the whole path, not just a slide deck."
+    }
+  ]
+}

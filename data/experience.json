@@ -1,0 +1,63 @@
+{
+  "roles": [
+    {
+      "company": "Employment Hero",
+      "location": "Sydney, NSW, Australia",
+      "positions": [
+        {
+          "title": "Marketing Operations Analyst",
+          "period": "Sep 2025 – Feb 2026",
+          "bullets": [
+            "Conducted thorough audits and investigations of Marketo programs to identify discrepancies and issues.",
+            "Managed the uploading of lists to the Marketo platform.",
+            "Examined challenges related to lead routing and assignment."
+          ]
+        }
+      ]
+    },
+    {
+      "company": "Dialpad",
+      "location": "San Ramon, CA, USA",
+      "positions": [
+        {
+          "title": "Marketing Database Analyst",
+          "period": "May 2023 – May 2025",
+          "bullets": [
+            "Performed regular data hygiene audits within Salesforce to ensure accuracy, completeness and consistency of marketing data.",
+            "Created and analyzed reports for email deliverability performance.",
+            "Generated monthly Bizible cost reports and managed uploads for the marketing team."
+          ]
+        }
+      ]
+    },
+    {
+      "company": "Quantrics Enterprises",
+      "location": "Taytay, Rizal, Philippines",
+      "positions": [
+        {
+          "title": "Analyst, Reporting & Business Intelligence",
+          "period": "Jul 2019 – May 2023",
+          "bullets": [
+            "Performed system analysis, documentation, testing, implementation and user support for platform transitions.",
+            "Identified and resolved problems through root cause analysis and research."
+          ]
+        },
+        {
+          "title": "Intraday Analyst",
+          "period": "Sep 2018 – Jul 2019",
+          "bullets": [
+            "Built extensive experience in data entry, analysis and reporting.",
+            "Applied effective time management techniques to meet tight deadlines under real-time pressure."
+          ]
+        },
+        {
+          "title": "Customer Service Representative",
+          "period": "Aug 2017 – Sep 2018",
+          "bullets": [
+            "Answered customer telephone calls promptly to assist with account inquiries and update requests."
+          ]
+        }
+      ]
+    }
+  ]
+}

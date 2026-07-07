@@ -1,0 +1,39 @@
+{
+  "services": [
+    {
+      "id": "business-analytics",
+      "title": "Business Analytics",
+      "description": "Turn scattered spreadsheets and exports into clear, decision-ready reporting — so you know what's actually driving performance, not just what happened last month."
+    },
+    {
+      "id": "workflow-automation",
+      "title": "Workflow Automation",
+      "description": "Remove the manual, repetitive steps eating your team's time — from list uploads to lead routing — so people spend hours on judgment calls, not data entry."
+    },
+    {
+      "id": "dashboards",
+      "title": "Dashboards",
+      "description": "Live, single-source-of-truth dashboards for marketing, sales or operations performance, built so non-analysts can actually read them."
+    },
+    {
+      "id": "websites",
+      "title": "Websites",
+      "description": "Fast, clean websites and portfolios that represent your business the way it deserves — without the bloat or the agency price tag."
+    },
+    {
+      "id": "internal-tools",
+      "title": "Internal Business Tools",
+      "description": "Purpose-built internal tools and trackers that fit how your team actually works, instead of forcing your team to work around generic software."
+    },
+    {
+      "id": "crm-marketing-ops",
+      "title": "CRM & Marketing Operations",
+      "description": "Cleaner CRM data, smarter segmentation, and marketing operations that don't quietly break every quarter."
+    },
+    {
+      "id": "sops-documentation",
+      "title": "SOPs & Documentation",
+      "description": "Documented processes and knowledge bases so critical steps live in a system, not in one person's head."
+    }
+  ]
+}
