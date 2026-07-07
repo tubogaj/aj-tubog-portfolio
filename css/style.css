@@ -308,13 +308,6 @@ ul{
    COMPONENTS — nav, buttons, cards, pills, folders, chat shell
    ========================================================= */
 
-/* ---------- Brand mark ---------- */
-.hash{
-  color:var(--accent-2);
-  opacity:.85;
-  font-weight:700;
-}
-
 /* ---------- Nav ---------- */
 .site-nav{
   position:fixed;
@@ -927,12 +920,11 @@ ul{
   display:inline-block;
 }
 
-.preloader-signature{
-  font-family:var(--font-signature);
-  font-size:clamp(2.5rem, 9vw, 5.5rem);
+.preloader-signature-svg{
+  display:block;
+  width:clamp(150px, 22vw, 240px);
+  height:auto;
   color:var(--text-0);
-  white-space:nowrap;
-  display:inline-block;
 }
 
 .preloader-pen{

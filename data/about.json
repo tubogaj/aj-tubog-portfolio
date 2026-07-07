@@ -12,14 +12,16 @@
   ],
   "stats": [
     { "value": "8+", "label": "Years across data, CRM & marketing operations" },
-    { "value": "3", "label": "Industries: BPO, SaaS & HR Tech" },
+    { "value": "6", "label": "Industries served, from SaaS to cleaning services" },
     { "value": "Remote-first", "label": "Available for freelance & contract work" }
   ],
   "industries": [
     { "name": "SaaS & Technology", "detail": "Marketing database operations for a fast-growing communications platform." },
     { "name": "HR Tech", "detail": "Marketing operations & Marketo audits for a global HR & payroll platform." },
     { "name": "BPO & Business Process Outsourcing", "detail": "Five years in reporting, business intelligence & customer operations." },
-    { "name": "Trading & Fintech", "detail": "Performance analytics and self-service guides for automated trading platforms." }
+    { "name": "Trading & Fintech", "detail": "Performance analytics and self-service guides for automated trading platforms." },
+    { "name": "Residential & Commercial Cleaning", "detail": "Scheduling, reporting and client account support for cleaning service businesses." },
+    { "name": "Credit Repair", "detail": "Client account tracking and reporting support for credit repair service providers." }
   ],
   "whyHireMe": [
     {
